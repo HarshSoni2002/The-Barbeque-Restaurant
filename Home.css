@@ -1,0 +1,556 @@
+/* * {
+    padding: 0px;
+    margin: 0px;
+} */
+
+
+/* HOME SECTION WITH NAV BAR */
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.5); */
+    background-color: #132C33;
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+    padding: 5px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 30px;
+}
+
+.navbar ul li {
+    list-style: none;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin: -1px 10px;
+    padding: 10px;
+    display: inline-block;
+    transition: 0.4s;
+    /* line-height: 80px; */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.active,
+.navbar ul li:hover {
+    background-color: #CD113B;
+}
+
+.topbanner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/bg12.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    position: relative;
+    /* border: 2px solid red; */
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+.topbanner_content {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    top: 10%;
+    color: white;
+}
+
+.topbanner_content h1 {
+    color: #7B113A;
+    font-size: 55px;
+    position: relative;
+    top: -20px;
+    /* text-transform: uppercase; */
+    /* margin-top: 20px; */
+}
+
+.topbanner_content h2 {
+    /* padding: 5px; */
+    font-weight: lighter;
+    /* border: 2px solid black; */
+    font-size: 30px;
+}
+
+.topbanner_content p {
+    position: relative;
+    top: -30px;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.topbanner_content a {
+    /* border: 2px solid red; */
+    color: white;
+    padding: 15px;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background: #CD113B;
+    transition: 0.2s;
+}
+
+.topbanner_content a:hover {
+    background-color: #333;
+}
+
+
+/* 2ND SECTION WITH CONTACT DETAILS */
+
+.contact_details {
+    width: 100%;
+    height: 85vh;
+    background-color: #fffff;
+}
+
+.left_image {
+    position: absolute;
+    float: left;
+    left: 100px;
+    transform: translateY(55%);
+    width: 30%;
+    height: 40%;
+    background-image: url(images/burger2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    /* display: inline-block; */
+}
+
+.right_image {
+    position: absolute;
+    float: right;
+    right: 100px;
+    width: 30%;
+    height: 47%;
+    transform: translateY(55%);
+    position: relative;
+    background-image: url(images/pizza2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    /* border: 5px solid #F55C47; */
+    /* display: inline-block; */
+}
+
+.mid {
+    position: absolute;
+    left: 32%;
+    transform: translateY(34%);
+    width: 35%;
+    height: 50%;
+    background: #F55C47;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.mid h4 {
+    text-align: center;
+    margin: 15px;
+    /* border: 2px solid red; */
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.or {
+    position: absolute;
+    text-align: center;
+    border: 1.5px solid white;
+    margin-top: 5px;
+    padding: 10px 20px;
+    left: 43%;
+    border-radius: 50%;
+    color: white;
+}
+
+.mid a {
+    /* border: 2px solid red; */
+    color: #f55c47;
+    padding: 15px;
+    position: relative;
+    top: 70px;
+    left: 32%;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* border-radius: 5px; */
+    background: white;
+    /* border: 2px solid black; */
+}
+
+.mid .contact-content {
+    width: 75%;
+    height: 100px;
+    position: relative;
+    top: -5px;
+    margin: auto;
+    background: #df8d7b;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mid .contact-content span {
+    /* border: 2px solid red; */
+    position: relative;
+    top: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.mid .contact-content h6 {
+    /* border: 2px solid red; */
+    position: relative;
+    top: -35px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+/* 3RD SECTION FOR BOOK TABLE */
+
+.book_table {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/table3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -18px;
+}
+
+.form div {
+    padding: 10px;
+    /* border: 2px solid red; */
+    background: transparent;
+}
+
+
+/* .form{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 80px 80px 80px;
+    grid-gap: 20px 20px;
+} */
+
+.book_table h2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    /* border: 2px solid red; */
+    top: 40px;
+    font-size: 35px;
+}
+
+label {
+    color: #83142C;
+    font-size: 20px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: #CD113B;
+    color: white;
+    margin-top: 27px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+input[type=submit]:hover {
+    background-color: #333;
+}
+
+.form {
+    position: absolute;
+    left: 500px;
+    top: 160px;
+    /* right: 0px; */
+    border-radius: 15px;
+    background-color: rgb(242, 242, 242, 0.75);
+    padding: 20px;
+    height: 50%;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 100px 100px 100px;
+    z-index: 1;
+    /* grid-gap: 20px 20px; */
+}
+
+.left_image_of_book_table {
+    background-image: url(images/lefttable1.jpg);
+    background-size: cover;
+    background-position: center;
+    /* border: 2px solid black; */
+    position: relative;
+    left: 200px;
+    top: 50px;
+    border-radius: 15px;
+    height: 70%;
+    width: 25%;
+}
+
+
+/* 4TH SECTION FOR OUR TOP RATED ITEMS */
+
+.top_rated_food {
+    width: 100%;
+    height: 170vh;
+    background-color: #053742;
+    position: relative;
+    top: -30px;
+}
+
+.section4hadding {
+    /* border: 2px solid red; */
+    text-align: center;
+    letter-spacing: 5px;
+    position: relative;
+    color: white;
+    margin: 20px;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100% 100%;
+    grid-gap: 30px 30px;
+    position: absolute;
+    left: 55px;
+    /* left: 50px; */
+    top: 90px;
+}
+
+.outers {
+    /* border: 2px solid black; */
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 8px;
+    border-radius: 35px;
+}
+
+.outer1 .top_img {
+    background-image: url(images/hotdog.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.outer2 .top_img {
+    background-image: url(images/thali1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.outer3 .top_img {
+    background-image: url(images/chicken.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.outer4 .top_img {
+    background-image: url(images/thali2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.outer5 .top_img {
+    background-image: url(images/paneer.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.outer6 .top_img {
+    background-image: url(images/daal.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bottom_details a {
+    /* border: 2px solid black; */
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #CD113B;
+    /* height: 30px; */
+    /* width: 200px; */
+}
+
+.top_img {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid red; */
+    border-radius: 25px 25px 0 0;
+}
+
+.bottom_details {
+    width: 100%;
+    height: 50%;
+}
+
+.bottom_details h4 {
+    /* margin-left: 20px; */
+    text-transform: uppercase;
+}
+
+.price {
+    position: relative;
+    float: right;
+    bottom: 60px;
+}
+
+
+/* 5th section get app  */
+
+.get-app {
+    width: 100%;
+    height: 25vh;
+    background-color: #f55c47;
+    position: relative;
+    top: -50px;
+}
+
+.get-app h2 {
+    padding: 25px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.get-app a {
+    /* margin: auto; */
+    /* border: 2px solid red; */
+    padding: 10px;
+    font-size: 25px;
+    position: absolute;
+    top: 75px;
+    left: 38%;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #f55c47;
+    text-transform: uppercase;
+}
+
+
+/* 6th section footer  */
+
+footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #171717;
+    position: relative;
+    top: -68px;
+    /* margin-bottom: 0px; */
+    /* display: inline-block; */
+}
+
+footer div {
+    width: 25%;
+    height: auto;
+    /* border: 2px solid red; */
+    color: white;
+    display: inline-flex;
+    position: relative;
+    top: 30%;
+    padding: 10px;
+}
+
+.copyright {
+    padding-left: 20px;
+    top: 20px;
+    font-size: 25px;
+}
+
+.desygned_by {
+    top: 25px;
+    float: right;
+}
+
+.desygned_by p {
+    font-size: 20px;
+}
+
+.desygned_by ul li {
+    display: list-item;
+    color: #f55c47;
+    font-size: large;
+}
+
+footer div ul li {
+    display: inline-block;
+}
+
+.fa {
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    border-radius: 5px;
+    /* font-size: 30px; */
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.socialmediaicons {
+    position: relative;
+    width: 30%;
+    top: 25px;
+    left: 70px;
+}
