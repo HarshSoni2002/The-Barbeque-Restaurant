@@ -261,7 +261,7 @@
             <p>Designed by:</p>
             <ul class="desygners">
                 <li>Yash Chaudhary</li>
-                <li>Ujjwal Sanadhya</li>
+                <li>Harsh Soni</li>
                 <li>Azeem Khan</li>
             </ul>
         </div>
